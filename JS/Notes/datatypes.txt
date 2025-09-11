@@ -32,23 +32,33 @@ number : Any numerical value is a number
   numbers also have math methods such as sqrt, cbrt, pow, ceil, floor etc..,
 
 
+1.toFixed: it is used to return roundup value of n decimal digits
+2.toPrecision: it is used to return roundup value of n total digits
+3.toString(base): it is used to convert number to a string and different base system
+eg.let x =25.4168
+      x.toFixed(2) = 25.42
+      x.toPrecision(3) = 25.4
+      x=25;
+      x.toString(2) ===>11001
+
+  Most used math methods are
+    math.sqrt(16) ===> It returns square root of -- 4
+    math.cbrt(27) ===> It returns cube root of --- 3
+    math.pow(2,3) ===> returns 2 powers 3 --- 8
+    same thing like can be done like 2**3
+    math.abs(-12) ==> Returns absolute value in positive values
+    math.max(5,1,6,2) ==> Returns maximum value -- 6
+    math.min(5,1,6,2) ==> returns minimum value -- 1
+    math.ceil(2.1) ==> return nearest greater value -- 3
+    math.floor(2.8) ==> returns nearest smaller value -- 2
+    math.round(1.4) ==> returns nearest interger -- 1
+    math.random() ==> returns random value between 0 and 1
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+String: String is collections of characters
+eg."abcd1234", "abc 123" 
+In Javascript can be written single or double quotes
+There is no Difference between but used alternativeky is nested Strings
+String can also dynamic called 'template literals'. It useds backticks for strings and $() for dynamic values
+let c = "John"
+console.log('The name is $(c))

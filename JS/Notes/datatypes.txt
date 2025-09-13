@@ -62,3 +62,32 @@ There is no Difference between but used alternativeky is nested Strings
 String can also dynamic called 'template literals'. It useds backticks for strings and $() for dynamic values
 let c = "John"
 console.log('The name is $(c))
+
+String Method:
+      toUpperCase():- USed to cannot string into UpperCase 
+Note: Original string will never change since strings are immutable
+      toUpperCase() -- used to return converted value of string into lowercase
+      length -- used to return number of characters, tehe string contains
+      charAt(i) -- used to return character at index i
+      indexOf('c') -- USed to return first occurance of index of character calledlast
+      lastIndexOf('c') -- Used to return last occurance of index of character
+      stringWith('str') -- used to return true/false based on string is starting with str or Note
+      endsWith('str') -- used to return true/false based on string in ending with str or Not
+      slice(s,e) -- used to return substring from index s to ondex e-1
+      slice(s) -- used to return substring form index s to end
+      slice(v) -- used to split the string based on value v and return an array of sub strings
+      eg: "prasad".split('a') ===>['pr','s','d']
+      replace(old,new) -- used to replcae first occurance of old value to new value for all occurance,we can use replaceAll
+      trim() : used to return string after removing the spaces from starting and ending of string
+
+Operators:
+    boolean: boolean is used to store true/false. If converted to numbers, true is converted as 1 and false is converted as 0
+
+    undefined: undefined is the primitive datatype/ value that reprsents uninitialized or non existent element
+    
+    let  y ;
+    console.log(y)  //undefined 
+    undefined expect to future occurand of value
+
+    null: null is also the primitive value that of indicates a variables has no values or no object 
+

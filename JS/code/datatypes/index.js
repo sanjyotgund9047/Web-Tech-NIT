@@ -88,6 +88,7 @@ console.log(
     str.split("u").length -
     1 +
     str.split(' ').length-
-    1 -
-    str.length
+    1
+
+  // What is differnce between undifined and defined
 );

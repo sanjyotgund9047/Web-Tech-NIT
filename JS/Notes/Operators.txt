@@ -1,0 +1,42 @@
+Operators: Operators are used to perform operation.There are different types of Operators such as
+        1.Arithmetic Operators: (+,-,*,/(direct division),%(remainder),**(power))
+        
+        2.relational Operators: These operators are used for comparision 
+        (>, <, >=, <=, ==)
+
+        == -- it will compares only values not datatypes
+        
+        === -- it will compares values and datatypes
+
+        != -- returns negation of ==
+        
+        !== -- returns negation of ===
+
+        3.Logical Operators: These operators are used for combining statements logically 
+            i.Logical AND (&&) : it will return true only both are the true
+            ii.Logical OR (||) : It will return true any one are the true
+            iii.Logical NOT (!) : It will be true when actual statement will false
+            
+        4. Increment and Decrement Operators : These are unary operator which is used to incremant(Increase the value by  1)
+           and Decrement (Decrease the value by 1)
+           Pre-Increment : It first updates the value and return it
+           Post-Increment :It is used to returns the value and upadate it
+
+           let a = 10;
+           let x = ++a + a++;
+            cansole.log(x);
+
+        5.Ternary Operators  Or Conditional Operators: It is the shorthand operator used to check the Condition true or false and 
+        make a decision based on that values
+        let a =10;
+        let c = (a>b)? 20 :30;
+
+        let num =+ prompt("Enter a value");
+        let result =(num%2==0)?"Even":"Odd"
+        console.log(`${result}`)
+
+        6.nullish coalescing operaor : it will cjeck two values and return first value if is not 
+        undefined or null, else if returns second values
+        let a = 10;
+        let b = 20;
+        let c = a ?? b;
